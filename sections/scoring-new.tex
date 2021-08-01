@@ -4,34 +4,47 @@ If the hand has been deemed valid by the other players, the game will end immedi
 
 Melds of length 3 or 4 score the victor the meld's value. Any additional tile beyond that awards that meld's value again.
 
+The different types of melds are valued by the difficulty at which they are acquired.
+
 \begin{center}
-    \begin{tabular}{c|c}
-        Meld & Value\\\hline\hline
-        Runs & 1\\
-        Sums & 2\\
-        Pairs & 3\\
+    \begin{tabular}{c||c|c|c}
+              & Runs & Sums & Pairs\\\hline\hline
+        Value & 1 & 2 & 3\\
     \end{tabular}
 \end{center}
 
-\subsubsection*{Example Melds}
+\paragraph{Example Melds}
+The table below shows the score that different lengths of melds will net you according to the rules described above.
 \begin{center}
-    \begin{tabular}{r|c|c|c}
+    \begin{tabular}{c||c|c|c}
         Length & Runs & Sums & Pairs\\\hline\hline
         3--4 & 1 &  2 &  3 \\
            5 & 2 &  4 &  6 \\
            6 & 3 &  6 &  9 \\
            7 & 4 &  8 & 12 \\
-           8 & 5 & 10 & 15 \\
+           8 & 5 &  - & 15 \\
+           9 & 6 &  - & 18 \\
     \end{tabular}
 \end{center}
-
 In addition, the victor gets one point for each unmelded tile held by the opponents.
 
 \aside You may have noticed that melds of length 3 and 4 score the same. This is there to incentivise players to discard their unmelded tiles onto melds of length 3 without increasing the victor's overall score. It may even reduce it.
 
-\subsection{Completion Bonuses (Royal Melds)}
-Finishing the round with a meld containing every possible tile that makes up this meld (a Royal Meld) awards you an additional 10 points.
-
-This is particularly useful when dealing with sums, as some Royal Sums can be as short as just three tiles!
+\subsection{Shedding}
+To potentially reduce the amount of points held by the victor, the other players have the option of \textit{shedding} some of their loose tiles by melding them onto the victor's melds.
 
 \subsection{Capping and Stealing}
+Should you be able to shed onto each end of the victor's meld, you have successfully \textit{capped} it. Doing so allows you to \textit{steal} the meld from under their nose, awarding you the points instead!
+
+However, should two different players cap the meld in unison, the score is shared between them, rounding up as necessary.
+
+\note It is possible for multiple caps to happen. The last player/players to do so get to keep the score of the meld.
+
+\aside Capping is hard to do and requires planning, and thus provides a nice \textit{gotcha!} type reward meant to provoke some rivalrous reactions around the table.
+
+\subsection{Completion Bonuses (Royal Melds)}
+As a juicy reward for finishing the round with a meld containing every possible tile that makes up this meld (a Royal Meld), you are awarded an additional 10 points.
+
+This is particularly useful when dealing with sums, which can never be longer than 7, and can even be as short as just three tiles!
+
+\aside We wanted to reward players who managed to get really hard-to-get hands, the really short 3-tile sums in particular. Having these be scored the same as everything else would dis-incentivise players from pursuing them, but giving 10 bonus points might just make it worth it. The 33 point \textit{13 pairs} hand becomes a total of 43 points instead!
