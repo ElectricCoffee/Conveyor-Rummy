@@ -1,32 +1,29 @@
-\documentclass[a5paper]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[margin = 2cm]{geometry}
-\usepackage{graphicx}
-
-\font\domino=domino
-\catcode`\^=12 \offinterlineskip
-
-\title{%
-    Conveyor Rummy\\%
-    \large A game for 2--4 players\\%
-    \normalsize \textit{v.0.3.0}
-}
-
-\author{Niko Lepka and Eva Jacobsen\\%
-    \footnotesize With help from Alex Laterman}
-    
-\date{July 23 2021}
-
+\input{preamble.tex}
 \begin{document}
 
 \maketitle
 
 \noindent\includegraphics[width = \linewidth]{graphics/dominoes-gameplay.png}
+\newpage
+\section*{Intro}
+Conveyor Rummy is a rummy-style game played with dominoes. The numbers on the dominoes act simultaneously as suits and values, and can more easily adapt to your hand's composition than regular playing cards or Rummy tiles.
 
+\subsection*{Conventions}
+This rulebook follows a number of conventions outlined here:
+
+\example Examples are written like this and serves as an aid to better explain a rule.
+
+\note Notes are written like this, and serve to bring edge-cases to the reader's attention.
+
+\aside Asides can be thought of as ``developer commentary'', and exist to bring some insight to \textit{why} a certain rule was implemented the way it was.
+\newpage
+\tableofcontents
+\newpage
 \input{sections/object}
 \input{sections/requirements}
 \input{sections/setup}
 \input{sections/gameplay}
 \input{sections/scoring-new}
+\newpage
 \input{sections/variants}
 \end{document}
