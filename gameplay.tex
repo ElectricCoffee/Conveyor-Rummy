@@ -1,0 +1,36 @@
+\section{Gameplay}
+Going clockwise around the table, starting with the player who first claimed a column, a player must draw a tile off of one end a column, then discard a tile to the opposite end of that same column, such that they always have the same number of pieces they started with.
+
+\paragraph{Example} If Alice drew a tile from the south end of the third column, then she must discard to the north end of the third column.
+
+\paragraph{Note} Unlike regular Rummy, you \textbf{are} allowed to discard a face-up piece that you've drawn in the same turn, as long as you still put it at the opposite end of the column you drew it from. This is referred to as \textit{milling}.
+
+\subsection{Melding}
+In the standard variant of Conveyor Rummy, there are three types of melds: Normal Runs, Runs of Pairs, and Sums.
+Any time a valid meld exists in a player's hand, they may choose to reveal it and sum it off to the side.
+A meld may \textbf{never} be split apart or rearranged once revealed, though new tiles may be added to either end of it.
+
+Should you complete your last meld---known as \textit{closing}---on a pickup, ending up with 14 dominoes, you do not have to discard down to 13 (or 12 and 11 respectively for 2 players).
+
+\subsubsection{Normal Runs}
+A run is any series of three or more tiles that have consecutive numbers on one side, but the same number on the other.
+
+\subsubsection*{Example}
+{\domino ^4^5^6\\v6v6v6}\vspace{1mm}\\
+\vspace{1mm}or\\
+{\domino ^4^5^6^7^8\\v7v7v7v7v7}
+
+\subsubsection{Runs of Pairs}
+Runs of pairs are any series of three or more consecutive pairs\footnote{A pair is a tile where both ends are the same.}
+\subsubsection*{Example}
+{\domino ^2^3^4^5\\v2v3v4v5}
+
+\subsubsection{Sums}
+A sum (analogous to a set in Rummy/Mahjong) is three or more tiles where every tile's total number of pips add up to the same number.
+
+\subsubsection*{Example}
+These are two sums, one of 8s and one of 5s respectively:\\
+{ \domino%
+    ^4^3^1\hspace{2mm}^0^4^3\\
+    v4v5v7\hspace{2mm}v5v1v2
+}
