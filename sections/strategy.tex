@@ -1,0 +1,44 @@
+\section{Strategy}
+This section outlines some strategies that can be useful for beginners who aren't sure what to prioritise when playing.
+
+\subsection{Prioritise Waiting on More Sides}
+In Mahjong and Rummy it's generally advised to \textit{wait} on two sides, that is to say it's safer to prioritise holding $\heartsuit 2\heartsuit 3$ than it is to hold $\heartsuit 1\heartsuit 2$---a so-called \textit{edge wait}.
+The reason for this is simple: to complete a $\heartsuit 2\heartsuit 3$ run, you need either a $\heartsuit 1$ or a $\heartsuit 4$; but to complete $\heartsuit 1\heartsuit 2$ run, you need a $\heartsuit 3$. Edge waits thus have half as many options for you to draw upon as two-sided waits.
+
+Playing with dominoes however, puts us in a rather unique situation: you can wait on more ``sides'' than just two.
+This is due to the fact, that a tile can belong to up to three different sets simultaneously.
+A { \domino <2>5 }, for example, can be in the suit of { \domino 2 }, the suit of { \domino 5 }, or even in the set of seven-sums.
+
+So, suppose your hand contains of the following dominoes:
+\begin{center}
+{ \domino%
+	^1^2^4\\
+	v5v5v3\\%
+}
+\end{center}
+This is effectively a \textit{quadruple}, or \textit{four-sided} wait, as any of the following would complete a meld:
+\begin{center}
+	{ \domino%
+		^0\hspace{2mm}^3\hspace{2mm}^1\hspace{2mm}^7\\
+		v5\hspace{2mm}v5\hspace{2mm}v6\hspace{2mm}v0\\%
+	}
+\end{center}
+
+\subsection{Prioritise Sums}
+Sums have two main benefits: They are easier to make royal, and they're harder to steal.
+
+These two facts spring from the fact that sums are unevenly distributed. 
+Sums near the middle are far more common than sums near the edges.
+
+The sums near the edges have exactly one or two ways to be made into sets, and are thus impossible to steal.
+
+For example, there's exactly one way to make a 4-sum:
+\begin{center}
+	{ \domino%
+		^0^1^2\\
+		v4v3v2\\%
+	}
+\end{center}
+
+This sum is worth 12 points---2 for the sum, and 10 for the completion bonus---and it cannot be stolen! There are no tiles you can add to this meld to surround it and take it away.
+However, due to there being exactly one way to make this sum, it is also very hard to make, so keep that in mind.
