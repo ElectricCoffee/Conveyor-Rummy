@@ -1,6 +1,6 @@
 ![Picture](graphics/dominoes-gameplay.png)
 
-# Conveyor Rummy version 1.1.0
+# Conveyor Rummy version 1.2.0
 
 A Rummy-like game for 2-4 players played entirely with dominoes.
 Over a series of turns, players draw tiles from a number of columns&mdash;or "conveyors", trying to complete sets and runs&mdash;called _melds_.
